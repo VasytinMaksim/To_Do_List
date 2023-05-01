@@ -10,6 +10,7 @@ using namespace std;
 int main() {
     setlocale(LC_ALL, "ru");
     SetConsoleCP(1251);
+    cout << "\tСПИСОК ДЕЛ" << endl;
     show_menu();
     int choice;
     cout << "Выберите действие:" << endl;
